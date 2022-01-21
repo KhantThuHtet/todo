@@ -1,0 +1,98 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-family: 'Montserrat', sans-serif;
+}
+
+.main {
+  height: 100vh;
+  background-color: #343a40;
+  color: #b3b3b3;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  font-size: 2rem;
+}
+
+.todo-box {
+  margin-top: 100px;
+}
+
+.todo-box .input-box {
+  width: 40vw;
+  height: 40px;
+  border-radius: 5px;
+  border: none;
+  background-color: #52796f;
+  margin-bottom: 30px;
+  text-indent: 10px;
+  color: #333536;
+}
+
+.todo-box .input-box:focus-visible {
+  outline: none;
+}
+
+.todo-box .lists {
+  list-style: none;
+}
+
+.todo-box .lists li {
+  margin: 10px 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  padding: 0;
+}
+
+.todo-box .lists li span {
+  margin: 0 auto 0 10px;
+}
+
+.todo-box .lists li button {
+  margin: 0 5px;
+  background: none;
+  border: none;
+}
+
+.todo-box .lists li button svg {
+  fill: #52796f;
+  width: 20px;
+  height: 20px;
+  cursor: pointer;
+}
+
+.todo-box .lists li .del svg {
+  fill: #da6969;
+}
+/*# sourceMappingURL=style.css.map */
